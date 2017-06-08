@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Dojo Survey</title>
+		<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+		<script type="text/javasript" src="{{ url_for('static', filename = 'js/script.js') }}"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="results">
+				<h3>Submitted Info</h3>
+				<div id="input_data">
+					<p>Name: {{name}}</p>
+					<p>Dojo Location: {{location}}</p>
+					<p>Favorite Language: {{language}}</p>
+					<p>Comments: {{comments}}</p>
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+
+	</body>
+</html>
